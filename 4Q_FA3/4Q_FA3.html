@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+  <title>Shape and Contacts List</title>
+  <link rel="stylesheet" href="4Q_FA3.css">
+  </head>
+<body>
+
+  <h2>1. Number Shape Generator</h2>
+  <button onclick="askForNumber()">Enter a Number</button>
+  <div id="shapeOutput"></div>
+
+  <hr />
+
+  <h2>2. Contacts List (Max 7)</h2>
+  <div class="contacts-container">
+    <input type="text" id="contactInput" placeholder="Enter name" />
+    <div class="contact-buttons">
+      <button onclick="addContact()">Add</button>
+      <button onclick="removeContact()">Remove</button>
+    </div>
+    <div id="contactList">Contacts: []</div>
+  </div>
+
+  <script src="4Q_FA3.js"></script>
+
+</body>
+</html>
